@@ -1,0 +1,11 @@
+# Criar o projeto node 
+
+npm init -y
+
+# instalar as dependencias:  express, cors e o body-parser
+
+npm install express cors body-parser
+
+# dependencia para gerar codigo automatico
+
+npm install uuid
