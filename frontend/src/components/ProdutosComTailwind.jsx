@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const ProdutosComTailwind = () => {
 //adicionado para funcionar na vercel(deploy)
-const API_URL ="https://deploybackfrontreactcrud.vercel.app/produtos";
+const API_URL ="https://testedeploycrud.vercel.app/produtos";
 
 
     const [produtos, setProdutos] = useState([]);

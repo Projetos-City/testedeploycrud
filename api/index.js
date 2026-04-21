@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 
 //adicionado para funcionar na vercel(deploy)
 app.use(cors({
-  origin: 'https://deploybackfrontreactcrud.vercel.app'
+  origin: 'https://testedeploycrud.vercel.app/'
 }));
 app.use(bodyParser.json());
 
